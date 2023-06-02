@@ -12,10 +12,11 @@ try {
     $entry = GFAPI::get_entry($bs_entry_id);
 
     $api = new Gravity_Flow_API($bs_form_id);
-    /* 
-            @var array() $entry The Entry 
-            @var bool $success True for success. False if not currently in a workflow.
-        */
+    /*
+     * @var array() $entry The Entry 
+     * @var bool $success True for success. False if not currently in a workflow.
+     * 
+     */
     $status = $api->cancel_workflow($entry);
 
     // $result = update_gravityflow_step($bs_form_id, $bs_entry_id, $bs_step_id);
