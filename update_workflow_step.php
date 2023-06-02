@@ -1,7 +1,7 @@
 <?php
 
 
-/* Update Workflow Step
+/* Cancel workflow
  * -------------------------------------------- */
 
 try {
